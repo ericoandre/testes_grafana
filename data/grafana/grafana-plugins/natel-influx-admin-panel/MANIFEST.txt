@@ -1,0 +1,42 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "community",
+  "signedByOrg": "grafana",
+  "signedByOrgName": "Grafana Labs",
+  "plugin": "natel-influx-admin-panel",
+  "version": "0.0.6",
+  "time": 1622740993429,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "LICENSE": "5412d331491aa9b555302b7ef997b743feba1332973ee16e1ac04d834aecfc65",
+    "module.ts": "00084959ec92f9cf2110a2bd012c7692b80bb24e4c759638ed06f06458387a9f",
+    "module.js.map": "5429b3c00dc71d1ea27b875a5b1b01666856610651508f8307deec3ecbc43d74",
+    "plugin.json": "86f529c19edffa11e82b4952590ea9e508d443681313c82ef55b82e0ba583bb6",
+    "README.md": "565111a786669d7b59aba5cd13056e55ab3996255205890e5609cb595981025a",
+    "img/screenshot-options.png": "12938c18e8289381de7303bcf0de9001f67c03a79ef169a6a3a0a6da7db65103",
+    "img/screenshot-kill.png": "800044302a8e1d7244f67d13a16a5af535fca1de2c3e2e3ff5329123a97a7a7a",
+    "img/screenshot-query.png": "353b56e380c42690f1615668d22cf787b9e4c2367c3f38e875dd78a6d0027755",
+    "img/screenshot-write.png": "9825f9afbc806df71395fc7c6deb82156904f09d518365483598ff0a0e0746dd",
+    "img/screenshot-current.png": "63cf801c4d21bab28b8f303ed7e9f38451f706967186ca0d34b5122cee5373e9",
+    "img/influx_admin_logo.svg": "e77242029ce8ba7bfe56fcb5a437eaf41c03e07cdb171ea7dcac708acdf0d851",
+    "module.js": "7c935d2e285c7e25dadf639c7f77409b3f2225145225a068a4b442eb2ed55a2b",
+    "module.d.ts": "98700931d581f4173bbf441724753b612acbf08e35ebf9eb1d92fe1cc49bc229",
+    "partials/module.html": "4ff8a2e5896b13a0ab32c8879f0fb3e1851c9bf01be068ce3b43cf5636707e0f",
+    "partials/editor.html": "e1c2f98800756c25fa40348181a47e1f857da32ceadba424c7a8abc307991ec8",
+    "partials/write.html": "d6dd59838f5db1f052b23b114b1a524dde4154b3350d3de170c48ed6ecfdf412"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.1
+Comment: https://openpgpjs.org
+
+wqIEARMKAAYFAmC5EAEACgkQfk0ManCIZueiPwIJAUT3FypRq+ISz2zx5c5g
+aLzMUodzebEl786bCT6H9zhrpydOBEo8pSo9BmU3ZPCBvYKkAMQ8Rb7klzhF
+pdOLyngKAgkBrMuGIYOWP6SmpAdMte1oUxXTxUVvDQxGS9dwSZUkElIQMWPk
+UKDBDwmD4m+G7bu8ruJgremV3HJEQN6PfYxBEAw=
+=bmpa
+-----END PGP SIGNATURE-----

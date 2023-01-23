@@ -1,0 +1,37 @@
+version: "3.9"
+services:
+  grafana:
+    container_name: grafana
+    build:
+      context: .
+      dockerfile: ./grafana/packaging/docker/custom
+    ports:
+      - 3000:3000
+    restart: always
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - ./data/grafana/grafana-storage:/var/lib/grafana
+      - ./data/grafana/grafana-provisioning/:/etc/grafana/provisioning
+      - ./data/grafana/grafana-plugins:/var/lib/grafana-plugins
+    user: '1000'
+
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: db
+    restart: unless-stopped
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+  admin:
+    image: adminer
+    container_name: adminer
+    restart: always
+    ports:
+      - 8080:8080
