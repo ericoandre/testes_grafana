@@ -39,8 +39,12 @@ CREATE TABLE "sensores" (
 
 Foi configurado o data source utilizando o plugin do postegres disponivel como core no grafana.
 
-![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/Captura%20de%20tela%20de%202023-01-22%2020-10-44.png)
+![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/assets/)
+![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/assets/)
+![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/assets/)
+![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/assets/)
+![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/assets/)
 
 Dasheboard final
 
-![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/Captura%20de%20tela%20de%202023-01-22%2020-10-44.png)
+![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/assets/Captura%20de%20tela%20de%202023-01-22%2020-10-44.png)
