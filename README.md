@@ -1,6 +1,6 @@
 # Testes Grafana
 
-#### Requisitos para o Arch Linux
+Requisitos para o Arch Linux
 
 ```bash
 sudo pacman -S docker
