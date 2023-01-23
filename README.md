@@ -48,7 +48,7 @@ Criando um dashboard
 
 ![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/assets/Captura%20de%20tela%20de%202023-01-23%2008-17-02.png)
 
-Selecione o datsource em seguida a tabela e os campos que sera utilizado no painel e por fim click em salvar.
+Selecione o datsource em seguida a tabela e os campos que sera utilizado no painel e por fim click em apply.
 
 ![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/assets/Captura%20de%20tela%20de%202023-01-23%2008-17-56.png)
 
