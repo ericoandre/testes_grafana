@@ -25,12 +25,21 @@ No postegres foi criado uma tabela para armazenar os dados das leituras dos sens
 
 
 ```sql
+CREATE TABLE "sensores" (
+    "id" integer DEFAULT NOT NULL,
+    "temp" real NOT NULL,
+    "umid" real NOT NULL,
+    "press" real NOT NULL,
+    "time" timestamp NOT NULL,
+    CONSTRAINT "sensores_pkey" PRIMARY KEY ("id")
+);
 
 ```
 
 
 Foi configurado o data source utilizando o plugin do postegres disponivel como core no grafana.
 
+![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/Captura%20de%20tela%20de%202023-01-22%2020-10-44.png)
 
 Dasheboard final
 
