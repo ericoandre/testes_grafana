@@ -1,8 +1,6 @@
 # Testes Grafana
 
-### Requisitos 
-
-para o Arch Linux
+#### Requisitos para o Arch Linux
 
 ```bash
 sudo pacman -S docker
@@ -12,7 +10,7 @@ groupadd docker
 sudo usermod -aG docker $USER
 ```
 
-Neste projeto foi utilizado o dockerfile do repositorio do grafana
+Neste projeto foi utilizado o dockerfile do repositorio do grafana juntamente com baco de dados postgres. Tem uma diretorio com um script python e um base de dados de sensore, ele serve para simular o envio de dados dos sensores de temperatura umidade e pressão. 
 
 ```bash
 mkdir testes_grafana
