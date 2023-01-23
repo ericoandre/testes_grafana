@@ -44,6 +44,14 @@ Configurando a conexão
 
 ![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/assets/Captura%20de%20tela%20de%202023-01-23%2008-16-35.png)
 
+Criando um dashboard
+
+![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/assets/Captura%20de%20tela%20de%202023-01-23%2008-17-02.png)
+
+Selecione o datsource em seguida a tabela e os campos que sera utilizado no painel e por fim click em salvar.
+
+![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/assets/Captura%20de%20tela%20de%202023-01-23%2008-17-56.png)
+
 Dasheboard final
 
 ![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/assets/Captura%20de%20tela%20de%202023-01-22%2020-10-44.png)
