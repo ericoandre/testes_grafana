@@ -36,7 +36,7 @@ CREATE TABLE "sensores" (
 
 ```
 
-Configurado o data source utilizando o plugin do postegres disponivel como core no grafana.
+Configurando o data source utilizando o plugin do postegres disponível como core no grafana.
 
 ![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/assets/Captura%20de%20tela%20de%202023-01-23%2008-15-52.png)
 
@@ -52,6 +52,6 @@ Selecione o datsource em seguida a tabela e os campos que sera utilizado no pain
 
 ![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/assets/Captura%20de%20tela%20de%202023-01-23%2008-17-56.png)
 
-Dasheboard final
+Dashboard final
 
 ![](https://raw.githubusercontent.com/ericoandre/testes_grafana/main/assets/Captura%20de%20tela%20de%202023-01-22%2020-10-44.png)
